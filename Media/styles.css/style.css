@@ -1,0 +1,24 @@
+nav  li{
+ margin-right: 20px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav > ul {display: flex;}
+nav li:hover{
+    background-color: rgb(226, 158, 55);
+}
+nav >ul >li:hover >ul{
+    display: block;
+}
+.down{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+}
+.down{
+    padding: 10px;
+}
